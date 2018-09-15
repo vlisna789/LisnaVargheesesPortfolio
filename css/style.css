@@ -15,9 +15,10 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.7;
-  color: #828282;
+  color: #F8F8F8;
   background: #fff;
 }
+
 
 #page {
   position: relative;
@@ -62,6 +63,9 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 20px;
 }
+blue {
+  color:#6E73FF;
+}
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
@@ -92,7 +96,7 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   padding: 25px 0;
   z-index: 1;
-  background: #edebe8;
+  background: #FCFCFC;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -166,7 +170,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav .menu-2 li input[type=text]:focus {
   width: 100%;
   outline: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 .fh5co-nav .menu-2 li button {
   margin-top: 4px;
@@ -181,7 +185,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: transparent !important;
 }
 .fh5co-nav .menu-2 li button:hover i, .fh5co-nav .menu-2 li button:focus i {
-  color: black;
+  color: #6E73FF;
 }
 .fh5co-nav ul {
   padding: 0;
@@ -505,14 +509,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 768px) {
   .work .work-grid .inner .desc .cat {
-    color: #333333;
+    color: #000;
   }
 }
 .work:hover .inner, .work:focus .inner {
   opacity: 1;
 }
 .work:hover .desc h3 a, .work:focus .desc h3 a {
-  color: #cabcab;
+  color: #000;
 }
 
 .top-line {
@@ -1080,7 +1084,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #cabcab;
-  color: #fff;
+  color: #6E73FF;
 }
 
 .btn-success {
